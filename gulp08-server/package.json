@@ -1,0 +1,42 @@
+{
+  "name": "gulp03-browserify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/plugin-proposal-decorators": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/runtime": "^7.10.3",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.1",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cheerio": "^1.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-rename": "^2.0.0",
+    "gulp-res-version": "^0.2.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-version-rev": "^1.0.6",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
